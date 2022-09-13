@@ -1,4 +1,4 @@
-const paletas = [
+const bicycles = [
   {
     id: 1,
     sabor: 'Açaí com Leite Condensado',
@@ -25,15 +25,15 @@ const paletas = [
   },
 ];
 
-const findAllPaletasServices = () => {
-  return paletas;
+const findAllbicyclesServices = () => {
+  return bicycles;
 };
 
-const findByIdPaletaServices = (parametroId) => {
-  return paletas.find((paleta) => paleta.id === parametroId);
+const findByIdbicycleServices = (parametroId) => {
+  return bicycles.find((bicycle) => bicycle.id === parametroId);
 };
 
 module.exports = {
-  findAllPaletasServices,
-  findByIdPaletaServices,
+  findAllbicyclesServices,
+  findByIdbicycleServices,
 };
